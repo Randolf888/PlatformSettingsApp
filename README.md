@@ -1,10 +1,18 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# PlatformSettingsApp
 
-# Getting Started
+A React Native application demonstrating platform-specific UI components and design patterns for iOS and Android. This app showcases how to create adaptive interfaces that follow each platform's design guidelines, including buttons, typography, shadows, and elevation.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## Features
 
-## Step 1: Start Metro
+- **Platform-Specific Buttons**: Custom button components that adapt to iOS and Android design standards
+- **Adaptive UI**: Settings screen that changes appearance based on the running platform
+- **Design Guidelines Compliance**: Follows Material Design for Android and Human Interface Guidelines for iOS
+- **Dynamic Theming**: Colors and styles that match platform conventions
+- **Interactive Settings**: Toggle switches for notifications, dark mode, and location services
+- **Platform Information Display**: Shows current platform details and button styles
+
+
+### Step 1: Start Metro
 
 First, you will need to run **Metro**, the JavaScript build tool for React Native.
 
@@ -18,11 +26,11 @@ npm start
 yarn start
 ```
 
-## Step 2: Build and run your app
+### Step 2: Build and run your app
 
 With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
 
-### Android
+#### Android
 
 ```sh
 # Using npm
@@ -32,7 +40,7 @@ npm run android
 yarn android
 ```
 
-### iOS
+#### iOS
 
 For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
 
@@ -62,36 +70,27 @@ If everything is set up correctly, you should see your new app running in the An
 
 This is one way to run your app — you can also build it directly from Android Studio or Xcode.
 
-## Step 3: Modify your app
+## Usage
 
-Now that you have successfully run the app, let's make changes!
+The app displays a settings screen with platform-adaptive UI. Toggle settings using the switches, and interact with the platform-specific buttons at the bottom. The "Platform Info" section shows current platform details and styling differences.
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+## Modifying the App
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+Open `App.tsx` in your text editor and make changes. The app supports Fast Refresh for quick updates.
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
+To forcefully reload:
+
+- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**.
 - **iOS**: Press <kbd>R</kbd> in iOS Simulator.
 
-## Congratulations! :tada:
+## Troubleshooting
 
-You've successfully run and modified your React Native App. :partying_face:
+If you're having issues, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
 
-### Now what?
+## Learn More
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+- [React Native Website](https://reactnative.dev)
+- [Getting Started](https://reactnative.dev/docs/environment-setup)
+- [Learn the Basics](https://reactnative.dev/docs/getting-started)
+- [Blog](https://reactnative.dev/blog)
+- [`@facebook/react-native`](https://github.com/facebook/react-native)
