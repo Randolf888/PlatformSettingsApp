@@ -70,27 +70,3 @@ If everything is set up correctly, you should see your new app running in the An
 
 This is one way to run your app — you can also build it directly from Android Studio or Xcode.
 
-## Usage
-
-The app displays a settings screen with platform-adaptive UI. Toggle settings using the switches, and interact with the platform-specific buttons at the bottom. The "Platform Info" section shows current platform details and styling differences.
-
-## Modifying the App
-
-Open `App.tsx` in your text editor and make changes. The app supports Fast Refresh for quick updates.
-
-To forcefully reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**.
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Troubleshooting
-
-If you're having issues, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-## Learn More
-
-- [React Native Website](https://reactnative.dev)
-- [Getting Started](https://reactnative.dev/docs/environment-setup)
-- [Learn the Basics](https://reactnative.dev/docs/getting-started)
-- [Blog](https://reactnative.dev/blog)
-- [`@facebook/react-native`](https://github.com/facebook/react-native)
